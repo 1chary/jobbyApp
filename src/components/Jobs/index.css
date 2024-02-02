@@ -1,0 +1,72 @@
+.jobsContainer {
+  display: flex;
+  background-color: black;
+  min-height: 90vh;
+  width: 100%;
+}
+.profileAndFilterContainer {
+  width: 30%;
+  padding: 15px;
+}
+.displayJobsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+@media screen and (max-width: 767px) {
+  .jobsContainer {
+    flex-direction: column;
+  }
+  .displayJobsContainer {
+    width: 100%;
+  }
+  .profileAndFilterContainer {
+    width: 100%;
+  }
+}
+.searchContainer {
+  border: 1px solid #cbd5e1;
+  height: 35px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.inputBox {
+  border: none;
+  outline: none;
+  width: 40%;
+}
+.searchButton {
+  background-color: #7e858e;
+  cursor: pointer;
+}
+.searchIcon {
+  background-color: transparent;
+}
+.unOrderedJobItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.loaderArrange {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lineInProfile {
+  border: 1px solid #f8fafc;
+  width: 90%;
+  margin-top: 15px;
+}
+.typeOfEmploymentHeading {
+  color: white;
+  font-size: 20px;
+}
+.employmentOrder {
+  display: flex;
+  flex-direction: column;
+}

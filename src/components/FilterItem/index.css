@@ -1,0 +1,14 @@
+.employmentList {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.checkbox {
+  height: 15px;
+  width: 15px;
+  color: white;
+}
+.labelText {
+  color: white;
+  padding-left: 15px;
+}

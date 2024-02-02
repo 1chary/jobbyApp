@@ -1,0 +1,22 @@
+.individualJobs {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  width: 33%;
+  min-height: 350px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .individualJobs {
+    width: 100%;
+  }
+}
+
+.similarJobsLocationContainer {
+  display: flex;
+  align-items: center;
+}

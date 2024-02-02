@@ -1,0 +1,12 @@
+.individualJobCard {
+  background-color: #272727;
+  min-height: 300px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+.cardDecoration {
+  text-decoration: none;
+}

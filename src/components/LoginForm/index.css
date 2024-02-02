@@ -1,0 +1,87 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.detailsContainer {
+  height: 50vh;
+  width: 50%;
+  background-color: #272727;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .detailsContainer {
+    width: 80%;
+  }
+}
+.logo {
+  height: 60px;
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+}
+.userNameHeading {
+  color: white;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.inputBox {
+  margin-left: 50px;
+  width: 60%;
+  height: 25px;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  color: white;
+  margin-top: 5px;
+  outline: none;
+}
+@media screen and (max-width: 767px) {
+  .userNameHeading {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .inputBox {
+    margin-left: 20px;
+  }
+}
+
+.logInButton {
+  width: 60%;
+  background-color: #4f46e5;
+  height: 30px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .logInButton {
+    margin-left: 50px;
+  }
+}
+.errorMessage {
+  color: red;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .errorMessage {
+    padding-left: 50px;
+  }
+}

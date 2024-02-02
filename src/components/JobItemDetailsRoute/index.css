@@ -1,0 +1,213 @@
+.jobDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 100vh;
+}
+.insideJobDetailsContainer {
+  min-height: 90vh;
+  width: 90%;
+  background-color: #202020;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.jobDetailsFailureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.retryButton {
+  height: 40px;
+  width: 120px;
+  background-color: #4f46e5;
+  color: white;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailsLogo {
+  height: 50px;
+  width: 50px;
+}
+.interior {
+  width: 90%;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .detailsLogo {
+    height: 80px;
+    width: 80px;
+  }
+}
+.detailsArrangeInRow {
+  display: flex;
+  align-items: center;
+}
+.detailsArrangeInColumn {
+  display: flex;
+  flex-direction: column;
+}
+.titleHeading {
+  color: white;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.starAndRating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  height: 15px;
+}
+.star {
+  color: #fbbf24;
+  height: 30px;
+  width: 30px;
+}
+.rating {
+  color: white;
+  font-size: 22px;
+  padding-left: 10px;
+}
+.locationAndPackageContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.locationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  color: white;
+  margin-right: 10px;
+}
+.locationPara {
+  color: white;
+}
+.briefCase {
+  color: white;
+  margin-left: 20px;
+}
+.typeOfEmploy {
+  color: white;
+  padding-left: 10px;
+}
+.line {
+  width: 100%;
+  border: 1px solid white;
+}
+.descriptionAndVisit {
+  display: flex;
+  justify-content: space-between;
+}
+.descriptionHeading {
+  font-size: 28px;
+  color: white;
+}
+.visitHeading {
+  color: #6366f1;
+  font-size: 26px;
+}
+@media screen and (max-width: 767px) {
+  .descriptionHeading {
+    font-size: 16px;
+  }
+  .visitHeading {
+    font-size: 16px;
+  }
+}
+.descriptionPara {
+  color: white;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .descriptionPara {
+    font-size: 20px;
+  }
+}
+
+.skillsHeading {
+  color: white;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.unOrderedList {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.list {
+  width: 33%;
+  list-style-type: none;
+  display: flex;
+  margin-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  .list {
+    width: 45%;
+    margin-right: 10px;
+  }
+}
+.skillName {
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .skillName {
+    font-size: 14px;
+  }
+}
+
+.lifeAtCompany {
+  width: 100%;
+  display: flex;
+}
+.partPara {
+  width: 50%;
+}
+.lifePara {
+  color: white;
+  font-size: 22px;
+}
+.lifeImage {
+  width: 50%;
+  height: 250px;
+}
+@media screen and (max-width: 767px) {
+  .lifeAtCompany {
+    flex-direction: column;
+  }
+  .partPara {
+    width: 100%;
+  }
+  .lifeImage {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .lifePara {
+    font-size: 18px;
+  }
+}
+.similarJobsHeading {
+  color: white;
+  font-size: 32px;
+}
+.similarJobList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  .similarJobList {
+    display: flex;
+    flex-direction: column;
+  }
+}
